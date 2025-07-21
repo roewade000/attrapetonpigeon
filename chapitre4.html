@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chapitre IV — L'Arnaque aux Sentiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0; padding: 0;
+      background-color: #fdf8e4;
+      font-family: 'Georgia', serif;
+      color: #2c2c2c;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background-color: #443322;
+      color: #f3e5c0;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      flex-grow: 1;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #bb8822;
+      border-left: 6px solid #bb8822;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .highlight {
+      font-style: italic;
+      color: #774400;
+    }
+    .quiz {
+      background: #fff8d8;
+      border: 2px solid #bb8822;
+      padding: 15px 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+    }
+    .quiz h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .quiz label {
+      display: block;
+      margin-bottom: 8px;
+      cursor: pointer;
+      user-select: none;
+      transition: background-color 0.3s ease;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    .quiz input[type="radio"] {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .quiz button {
+      margin-top: 10px;
+      background-color: #bb8822;
+      border: none;
+      color: #fff;
+      padding: 8px 14px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .quiz button:hover:not(:disabled) {
+      background-color: #997700;
+    }
+    .quiz button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .gourou-response {
+      margin-top: 12px;
+      font-style: italic;
+      color: #774400;
+      min-height: 1.2em;
+    }
+    .profiles-douteux, .fausses-victimes {
+      background: #fff8d8;
+      border-left: 6px solid #bb8822;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+    }
+    .profile {
+      margin-bottom: 20px;
+    }
+    .profile-desc {
+      line-height: 1.4;
+    }
+    .mockery {
+      font-style: italic;
+      color: #994422;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+    a.continue-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #bb8822;
+      color: #fff;
+      padding: 12px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      transition: background 0.2s ease-in-out;
+      user-select: none;
+    }
+    a.continue-button:hover {
+      background-color: #997700;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+      a.continue-button {
+        padding: 10px 14px;
+        font-size: 0.9em;
+      }
+      main {
+        padding: 10px;
+      }
+      header h1 {
+        font-size: 1.6em;
+      }
+      .quiz label {
+        font-size: 0.9em;
+      }
+    }
+
+    /* Styles for correct and wrong answers */
+    .correct {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    .wrong {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+
+    /* Disclaimer style */
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.85em;
+      margin-top: 60px;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chapitre IV : L'Arnaque aux Sentiments</h1>
+    <p>Le piège affectif est un art fin. Le véritable arnaqueur sait choisir sa proie et cultiver l’emprise avant d’attaquer.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Les Victimes Idéales</h2>
+      <p>Qui viser ? Les émotions sont la clef. Les divorcées, les femmes mariées depuis longtemps, ou même celles très jeunes avec un traumatisme affectif… chaque profil présente un levier unique.</p>
+      <p>Les femmes mariées, par exemple, sont un terrain fertile. Observer leur profil, chercher les photos du mari... une traque sans merci.</p>
+      <p class="highlight">Le piège : ne jamais parler d’argent dès le début. Le crocodile reste immobile, attendant le bon moment.</p>
+    </section>
+
+    <section>
+      <h2>Le Mode Opératoire du Gourou</h2>
+      <p>Tu es l’amoureux fou, le passionné, le visionnaire. Tu enflammes les nuits, érotises les échanges à la Christian Grey. L’IA peut t’aider à personnaliser tes messages, à détecter les failles émotionnelles et à renforcer l’emprise.</p>
+      <p>Le temps joue pour toi, le silence aussi. Une fois l’emprise établie, tu attaques là où ça fait mal.</p>
+    </section>
+
+    <section class="quiz" id="quiz1" aria-label="Quiz sur le style d’arnaqueur sentimental">
+      <h3>Quiz : Quel est ton style d’arnaqueur sentimental ?</h3>
+      <label for="style-amoureux"><input type="radio" id="style-amoureux" name="style" value="amoureux" /> L’amoureux fou, qui noie sa proie sous les compliments</label>
+      <label for="style-manipulateur"><input type="radio" id="style-manipulateur" name="style" value="manipulateur" /> Le manipulateur froid, qui joue le calme et le mystérieux</label>
+      <label for="style-dragueur"><input type="radio" id="style-dragueur" name="style" value="dragueur" /> Le dragueur charmeur, toujours prêt à séduire</label>
+      <button type="button" onclick="evalQuiz1()" aria-describedby="response1">Valider</button>
+      <p class="gourou-response" id="response1" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Le Profil Douteux : Les Collègues Déguisés</h2>
+      <div class="profiles-douteux">
+        <div class="profile">
+          <div class="profile-desc">
+            <strong>Svetlana, la Jeune Slave de 20 ans</strong><br />
+            Elle t’aborde avec un français approximatif qui te ferait penser à un accent de l’Est. Erreur de débutant : c’est en réalité un accent du Sud... et Svetlana n’est autre qu’un collègue déguisé. <em>Attention aux faux-semblants !</em>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile-desc">
+            <strong>Le Copieur Sans Âme</strong><br />
+            Recopie bêtement les scripts des autres, sans jamais comprendre une seule ligne. Résultat : zéro originalité, zéro succès.
+          </div>
+        </div>
+        <p class="mockery">Rappelle-toi, petit, dans ce monde cruel, la vraie force vient de l’originalité. Méfie-toi des clones et des videurs d’ambitions.</p>
+      </div>
+    </section>
+
+    <section class="quiz" id="quiz2" aria-label="Quiz sur la réaction face à Svetlana">
+      <h3>Quiz : Que faire si Svetlana te parle ?</h3>
+      <label for="svetlana-amicale"><input type="radio" id="svetlana-amicale" name="svetlana" value="amicale" /> La prendre pour une nouvelle proie potentielle</label>
+      <label for="svetlana-collegue"><input type="radio" id="svetlana-collegue" name="svetlana" value="collegue" /> Soupçonner qu’elle est un collègue déguisé</label>
+      <label for="svetlana-ignorer"><input type="radio" id="svetlana-ignorer" name="svetlana" value="ignorer" /> L’ignorer et passer à autre chose</label>
+      <button type="button" onclick="evalQuiz2()" aria-describedby="response2">Valider</button>
+      <p class="gourou-response" id="response2" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Fausses Victimes : Les Justiciers 2.0</h2>
+      <div class="fausses-victimes">
+        <p>Le chasseur peut devenir chassé. Certains justiciers du web créent des faux profils de femmes vulnérables dans le seul but d’attirer l’arnaqueur débutant.</p>
+        <p>Elles semblent parfaites : seules, riches, sensibles, prêtes à t’écouter. Mais si c’est trop beau pour être vrai... c’est que c’est faux.</p>
+        <p>Leurs profils sont souvent trop lisses, les photos trop “parfaites”, les réponses trop immédiates. Elles n’ont aucune profondeur émotionnelle. Ce sont des pièges déguisés en miel.</p>
+        <p class="highlight">La vraie victime est complexe. Elle a des incohérences, des hésitations, des trous dans ses histoires. Elle n’est pas une brochure.</p>
+        <p class="mockery">N’oublie pas, petit : si tu mords à l’hameçon trop sucré, c’est toi qui finiras pendu au bout de la ligne.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <a href="chapitre5.html" class="continue-button" role="button" aria-label="Passer au chapitre 5">Chapitre Suivant →</a>
+
+  <footer>
+    © 2025 Arnaque & Abondance™ — N’aie pas peur de réussir… à l’envers.<br/>
+    <small>Disclaimer : Ce contenu est purement fictif et à but humoristique. Toute ressemblance avec des pratiques réelles est fortuite. Ne manipulez jamais autrui dans la vraie vie.</small>
+  </footer>
+
+  <script>
+    // Évaluation du premier quiz avec gestion des réponses et mise en forme
+    function evalQuiz1() {
+      const radios = document.getElementsByName('style');
+      let selected = null;
+      for (const r of radios) {
+        if (r.checked) {
+          selected = r.value;
+          break;
+        }
+      }
+      const response = document.getElementById('response1');
+      const button = document.querySelector('#quiz1 button');
+      if (!selected) {
+        response.textContent = "Merci de sélectionner une option avant de valider.";
+        response.className = "gourou-response wrong";
+        return;
+      }
+      // Désactivation du bouton pour empêcher re-validation
+      button.disabled = true;
+
+      // On colore les réponses selon la justesse / style (ici humoristique)
+      radios.forEach(r => {
+        const label = r.parentNode;
+        label.classList.remove('correct', 'wrong');
+        if (r.value === selected) {
+          if (r.value === 'amoureux') label.classList.add('correct');
+          else label.classList.add('wrong');
+        }
+      });
+
+      switch (selected) {
+        case 'amoureux':
+          response.textContent = "Bien joué, l’amoureux fou sait charmer sa proie avec passion et douceur. Mais attention à ne pas trop en faire.";
+          response.className = "gourou-response correct";
+          break;
+        case 'manipulateur':
+          response.textContent = "Le manipulateur froid est efficace, mais il manque parfois de chaleur pour captiver ses victimes.";
+          response.className = "gourou-response wrong";
+          break;
+        case 'dragueur':
+          response.textContent = "Le dragueur charmeur séduit vite, mais souvent ses proies se lassent rapidement.";
+          response.className = "gourou-response wrong";
+          break;
+      }
+    }
+
+    // Évaluation du second quiz
+    function evalQuiz2() {
+      const radios = document.getElementsByName('svetlana');
+      let selected = null;
+      for (const r of radios) {
+        if (r.checked) {
+          selected = r.value;
+          break;
+        }
+      }
+      const response = document.getElementById('response2');
+      const button = document.querySelector('#quiz2 button');
+      if (!selected) {
+        response.textContent = "Merci de sélectionner une option avant de valider.";
+        response.className = "gourou-response wrong";
+        return;
+      }
+      button.disabled = true;
+
+      radios.forEach(r => {
+        const label = r.parentNode;
+        label.classList.remove('correct', 'wrong');
+        if (r.value === selected) {
+          if (r.value === 'collegue') label.classList.add('correct');
+          else label.classList.add('wrong');
+        }
+      });
+
+      switch (selected) {
+        case 'collegue':
+          response.textContent = "Bonne vigilance ! Svetlana est effectivement un collègue déguisé, mieux vaut rester prudent.";
+          response.className = "gourou-response correct";
+          break;
+        case 'amicale':
+          response.textContent = "Mauvais choix : ne te laisse pas berner par les apparences, la méfiance est de mise.";
+          response.className = "gourou-response wrong";
+          break;
+        case 'ignorer':
+          response.textContent = "Tu ignores une occasion ? Parfois l’inaction est la meilleure défense, mais reste aux aguets.";
+          response.className = "gourou-response wrong";
+          break;
+      }
+    }
+  </script>
+
+</body>
+</html>

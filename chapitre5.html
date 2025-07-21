@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chapitre V — Crypto, NFT & Bullshit Financier</title>
+  <meta name="description" content="Découvre comment vendre du vide avec panache dans le monde de la crypto, NFT et bullshit financier. Quiz interactifs et conseils pour manipuler comme un pro." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <style>
+    body {
+      margin: 0; padding: 0;
+      background: #fdf8e4;
+      font-family: 'Georgia', serif;
+      color: #2c2c2c;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+    }
+    header {
+      background: #443322;
+      color: #f3e5c0;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 { font-size: 2.2em; margin-bottom: 10px; }
+    header p { font-style: italic; font-size: 1.1em; max-width: 600px; margin: 0 auto; }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      flex-grow: 1;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #bb8822;
+      border-left: 6px solid #bb8822;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+    p { margin-bottom: 15px; }
+    .highlight { font-style: italic; color: #774400; }
+    .mockery { color: #992222; font-weight: bold; margin-top: 10px; }
+    .quiz {
+      background: #fff8d8;
+      border: 2px solid #bb8822;
+      padding: 15px 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+    }
+    .quiz h3 { margin-top: 0; margin-bottom: 10px; font-weight: bold; }
+    .quiz label { display: block; margin-bottom: 8px; cursor: pointer; }
+    .quiz input[type="radio"] { margin-right: 10px; }
+    .quiz button {
+      margin-top: 10px; background: #bb8822; border: none;
+      color: #fff; padding: 8px 14px; font-weight: bold;
+      border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease;
+    }
+    .quiz button:hover:not(:disabled) { background: #997700; }
+    .quiz button:disabled {
+      background: #666;
+      cursor: not-allowed;
+    }
+    .gourou-response {
+      margin-top: 12px;
+      font-style: italic;
+      color: #774400;
+      min-height: 2em;
+      outline-offset: 2px;
+    }
+    .correct { color: #2a7f2a; font-weight: bold; }
+    .wrong { color: #a22a2a; font-weight: bold; }
+    a.continue-button {
+      position: fixed; bottom: 20px; right: 20px;
+      background: #bb8822; color: #fff; padding: 12px 18px;
+      text-decoration: none; font-weight: bold;
+      border-radius: 4px; box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      transition: background 0.2s ease-in-out;
+      z-index: 1000;
+    }
+    a.continue-button:hover { background: #997700; }
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85em;
+      margin-top: 60px;
+      line-height: 1.4;
+    }
+    footer .disclaimer {
+      margin-top: 12px;
+      color: #888;
+      font-size: 0.75em;
+      font-style: italic;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chapitre V : Crypto, NFT & Bullshit Financier</h1>
+  <p>Le monde moderne te donne une arme fatale : vendre du vide avec panache.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Vendre le Vide avec Panache</h2>
+    <p>Tu n’as pas besoin de comprendre la blockchain. Tu dois la faire briller. C’est une scène. Et toi, tu es le magicien qui vend des illusions numériques à des âmes avides.</p>
+    <p class="highlight">Louis, 19 ans, a lancé un token “DollarCoin” depuis sa chambre à Angers. Il a levé 80 000€ en trois semaines, disparu au bout de deux, et son avatar NFT est devenu une légende urbaine.</p>
+    <p>Ne sous-estime jamais le pouvoir du verbe. Un bon pitch remplace dix diplômes. Tu ne vends pas un projet, tu vends une vision. Floue, brûlante, prometteuse.</p>
+  </section>
+
+  <section class="quiz" id="quiz1" tabindex="0">
+    <h3>Quiz : Quel mot attire le plus les pigeons ?</h3>
+    <label><input type="radio" name="q1" value="a" /> Token</label>
+    <label><input type="radio" name="q1" value="b" /> Opportunité privée</label>
+    <label><input type="radio" name="q1" value="c" /> Projet éthique</label>
+    <button onclick="checkAnswer('q1', 'resp1', this)">Valider</button>
+    <p class="gourou-response" id="resp1" aria-live="polite" tabindex="0"></p>
+  </section>
+
+  <section>
+    <h2>Construire le Hype</h2>
+    <p>Tu dois créer l’urgence : <strong>“offre limitée”, “bêta privée”, “investisseurs validés”</strong>. Ces mots sont des phéromones pour les crédules.</p>
+    <p class="highlight">Estelle, mère de deux enfants, a vendu un NFT représentant une tomate triste. Elle a raconté que c’était une critique de l’agriculture post-capitaliste. Elle a touché 17 000€ en 48h.</p>
+    <p>Tu penses que c’est fou ? Ce n’est que le début. Si tu veux réussir ici, tu dois penser comme un prophète et écrire comme un marketeux sous acide.</p>
+  </section>
+
+  <section class="quiz" id="quiz2" tabindex="0">
+    <h3>Quiz : Quand faut-il lâcher ton lien d’investissement ?</h3>
+    <label><input type="radio" name="q2" value="a" /> Avant la hype</label>
+    <label><input type="radio" name="q2" value="b" /> Au pic de tension émotionnelle</label>
+    <label><input type="radio" name="q2" value="c" /> Après avoir tout expliqué</label>
+    <button onclick="checkAnswer('q2', 'resp2', this)">Valider</button>
+    <p class="gourou-response" id="resp2" aria-live="polite" tabindex="0"></p>
+  </section>
+
+  <section>
+    <h2>Utiliser l’IA pour Être Omniprésent</h2>
+    <p>Tu n’es plus seul. Tu as des clones numériques. Des IA pour répondre, générer des visuels, envoyer des mails automatiques. Tu es partout, tout le temps. Et tu dis ce que chacun a besoin d’entendre.</p>
+    <p class="highlight">Un pigeon aimé, écouté, valorisé… est un pigeon prêt à donner.</p>
+  </section>
+
+  <section class="quiz" id="quiz3" tabindex="0">
+    <h3>Quiz : Quelle IA utiliser pour paraître crédible ?</h3>
+    <label><input type="radio" name="q3" value="a" /> ChatGPT</label>
+    <label><input type="radio" name="q3" value="b" /> Un faux compte LinkedIn avec GPT</label>
+    <label><input type="radio" name="q3" value="c" /> Un bot Telegram mèmeur</label>
+    <button onclick="checkAnswer('q3', 'resp3', this)">Valider</button>
+    <p class="gourou-response" id="resp3" aria-live="polite" tabindex="0"></p>
+  </section>
+
+  <section>
+    <h2>Savoir se retirer</h2>
+    <p>Un vrai manipulateur ne s’acharne pas. Il surgit, séduit, encaisse… et s’évapore.</p>
+    <p class="highlight">Bill Gates a commencé éboueur, Steve Jobs était couvreur, sa femme vendait des oranges. C’est faux. Mais ça fait rêver, donc c’est vrai.</p>
+    <p>Quand le pigeon doute, <strong>ce n’est pas une faiblesse</strong>. C’est un feu rouge. Tu souris, tu bénis, tu files. Il doit te regretter, pas te comprendre.</p>
+    <p>Tu es comme un mythe. Une étoile filante de promesses.</p>
+    <p class="mockery">Brille, mens, encaisse… et disparais.</p>
+  </section>
+
+</main>
+
+<a href="chapitre6.html" class="continue-button" aria-label="Chapitre suivant">Chapitre Suivant</a>
+
+<footer>
+  © 2025 Arnaque & Abondance™ — Le vice bien orchestré devient une école.
+  <div class="disclaimer">
+    <strong>Disclaimer :</strong> Ce contenu est une satire et une critique humoristique des pratiques marketing douteuses dans le monde de la finance et des cryptomonnaies. Il ne doit en aucun cas être pris comme un conseil financier ou une incitation à des pratiques malhonnêtes.
+  </div>
+</footer>
+
+<script>
+  function checkAnswer(qName, respId, btn) {
+    const radios = document.getElementsByName(qName);
+    let selectedValue = null;
+    for (const r of radios) {
+      if (r.checked) {
+        selectedValue = r.value;
+        break;
+      }
+    }
+    if (!selectedValue) {
+      alert("Choisis une réponse avant de valider.");
+      return;
+    }
+
+    // Désactive le bouton après validation
+    btn.disabled = true;
+
+    let responseText = "";
+
+    // Bonne réponse par quiz
+    const correctAnswers = { q1: 'a', q2: 'b', q3: 'b' };
+
+    if (qName === "q1") {
+      switch(selectedValue) {
+        case 'a':
+          responseText = "Bien joué ! « Token » fait briller les yeux des pigeons comme un diamant dans une vitrine.";
+          break;
+        case 'b':
+          responseText = "Pas mal… « Opportunité privée » donne un air d’exclusivité. Les crédules adorent se sentir spéciaux.";
+          break;
+        case 'c':
+          responseText = "Trop éthique pour eux. Ils préfèrent rêver sans questionner.";
+          break;
+      }
+    } else if (qName === "q2") {
+      switch(selectedValue) {
+        case 'a':
+          responseText = "Trop tôt, tu perds la tension. Un bon manipulateur sait quand frapper.";
+          break;
+        case 'b':
+          responseText = "Exact ! Le pic émotionnel, c’est la faille à exploiter.";
+          break;
+        case 'c':
+          responseText = "Trop tard, le pigeon a eu le temps de réfléchir et de douter.";
+          break;
+      }
+    } else if (qName === "q3") {
+      switch(selectedValue) {
+        case 'a':
+          responseText = "ChatGPT, c’est un bon assistant, mais tu dois personnaliser. Le pigeon aime les détails.";
+          break;
+        case 'b':
+          responseText = "Bingo ! Un faux profil LinkedIn avec GPT, c’est l’arme secrète du manipulateur moderne.";
+          break;
+        case 'c':
+          responseText = "Drôle, mais un bot mèmeur ne convainc pas les pigeons sérieux.";
+          break;
+      }
+    }
+
+    const respEl = document.getElementById(respId);
+    respEl.textContent = responseText;
+    respEl.className = 'gourou-response'; // reset classes
+
+    if(selectedValue === correctAnswers[qName]){
+      respEl.classList.add('correct');
+    } else {
+      respEl.classList.add('wrong');
+    }
+
+    // Scroll vers la réponse
+    respEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // Met le focus sur la réponse (pour lecteurs d'écran)
+    respEl.focus();
+  }
+</script>
+
+</body>
+</html>
